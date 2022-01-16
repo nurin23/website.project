@@ -1,0 +1,58 @@
+body 
+{
+	background-color: deepskyblue;
+}
+a:link
+{
+	color: blue;
+	background-color: lavenderblush;
+	text-decoration: none;
+	padding: 15px;
+}
+a:visited
+{
+	color: black;
+	background-color: cadetblue;
+	text-decoration: none;
+	padding: 15px;
+}
+a:hover
+{
+	color: green;
+	background-color: chartreuse;
+	text-decoration:underline ;
+
+}
+a:active
+{
+	color:black ;
+	background-color: beige;
+	text-decoration: underline;
+}
+body
+{ 
+	font-family: serif;
+ 	font-colour: white;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family:serif ;
+}
+h1
+{
+	animation: type 3s steps(14);
+	overflow: hidden;
+	white-space: nowrap;
+}
+@keyframes type{
+	0% {
+		width:0ch;	
+		}
+		100%{
+			width: 14ch;
+		}
+
+
+
